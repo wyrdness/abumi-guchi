@@ -1,0 +1,289 @@
+{
+  "category": "ENTITY_SPIRIT",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/abumi-guchi",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "abumi-guchi",
+    "name": "Abumi-guchi",
+    "aliases": [
+      {
+        "name": "あぶみ口",
+        "language": "Japanese",
+        "meaning": "Stirrup mouth"
+      },
+      {
+        "name": "Stirrup Yokai",
+        "language": "English",
+        "meaning": "Possessed stirrup spirit"
+      }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Yokai",
+    "tags": [
+      "yokai",
+      "japanese-folklore",
+      "object-spirit",
+      "tsukumogami-related",
+      "samurai-era",
+      "possessed-object",
+      "harmless",
+      "tragic-origin"
+    ],
+    "status": "traditional",
+    "description": {
+      "summary": "A Japanese yokai that manifests as a possessed horse stirrup, appearing as a shaggy, furry object with a mouth. Born from the stirrup of a samurai's loyal horse that died in battle, soaked in blood and grief.",
+      "full": "Abumi-guchi is a peculiar yokai from Japanese folklore, appearing as a possessed stirrup (abumi) with a distinctive furry or shaggy appearance and a mouth capable of speech. Unlike typical tsukumogami (objects that become spirits after 100 years), Abumi-guchi is born from tragedy rather than age. The legend tells of a stirrup from a horse that died in battle alongside its samurai master. Soaked in the horse's blood and infused with the animal's loyalty, grief, and the trauma of its death, the stirrup became a sentient yokai. Despite its supernatural nature, Abumi-guchi is relatively harmless, primarily calling out to passersby or engaging in minor mischief. The yokai represents the Japanese belief that objects can absorb the emotions and experiences of traumatic events, particularly in the context of samurai warfare where the bond between warrior and mount was deeply significant. Its voice can speak, sometimes moaning or calling out, serving as a lingering reminder of the loyalty and sacrifice of war horses in feudal Japan."
+    },
+    "etymology": {
+      "origin": "'Abumi' means stirrup (the footrest used when mounting a horse) and 'guchi' or 'kuchi' means mouth.",
+      "meaning": "Stirrup mouth",
+      "first_use": "Samurai era folklore"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ENTITY_SPIRIT",
+      "type": "Yokai",
+      "subtype": "Object spirit",
+      "variant": "Japanese (Tsukumogami-related)"
+    },
+    "related_phenomena": [
+      {
+        "id": "tsukumogami",
+        "name": "Tsukumogami",
+        "relationship": "related",
+        "description": "Objects that become spirits, though Abumi-guchi arises from trauma rather than age"
+      },
+      {
+        "id": "kasa-obake",
+        "name": "Kasa-obake",
+        "relationship": "similar",
+        "description": "Umbrella yokai, another possessed object spirit"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 0.2,
+        "max": 0.4,
+        "unit": "meters",
+        "confidence": "high"
+      },
+      "coloration": [
+        "brown",
+        "gray",
+        "dark fur or hair"
+      ],
+      "features": [
+        {
+          "feature": "Appearance",
+          "description": "Old stirrup with shaggy, furry covering",
+          "frequency": "always"
+        },
+        {
+          "feature": "Mouth",
+          "description": "Visible mouth capable of speech and moaning",
+          "frequency": "always"
+        },
+        {
+          "feature": "Size",
+          "description": "Relatively small, stirrup-sized object",
+          "frequency": "always"
+        },
+        {
+          "feature": "Texture",
+          "description": "Furry or hairy appearance, shaggy",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Small object yokai retaining basic stirrup shape but covered in fur or hair with visible mouth."
+    },
+    "abilities": [
+      {
+        "ability": "Speech",
+        "description": "Can speak and call out to passersby",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Vocalization",
+        "description": "Moans or makes sounds expressing lingering grief",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Minor mischief",
+        "description": "Engages in small pranks or disturbances",
+        "frequency": "occasional",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "any time",
+      "disposition": "harmless",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "roadsides",
+        "old battlefields",
+        "abandoned samurai estates",
+        "areas associated with past battles"
+      ],
+      "patterns": [
+        "Calls out to people passing by",
+        "Makes moaning or speaking sounds",
+        "Generally does not attack or harm",
+        "Minor mischievous behavior",
+        "May express sadness or loss"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Traditional Japanese folklore, particularly associated with samurai era and battlefield locations.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": [
+        "Throughout Japan in samurai era folklore",
+        "Associated with old battlefields"
+      ]
+    },
+    "temporal": {
+      "first_recorded": {
+        "date": "Samurai era",
+        "circa": true,
+        "source": "Japanese folklore compilations"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "Samurai era",
+          "description": "Origin period of folklore during feudal warfare"
+        }
+      ]
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Japanese samurai era folklore. Reflects the deep bond between samurai and their horses, and the belief that objects can absorb trauma and emotion.",
+      "earliest_accounts": "Samurai era folklore, Edo period compilations",
+      "folklore_connections": "Related to tsukumogami tradition but distinct in arising from tragedy rather than age. Reflects samurai culture's emphasis on loyalty and sacrifice."
+    },
+    "timeline": [
+      {
+        "date": "Samurai era",
+        "event": "Original folklore origins",
+        "significance": "Stories emerge from battlefield tragedies and loyal war horses",
+        "source": "Traditional folklore"
+      },
+      {
+        "date": "Edo period",
+        "event": "Folklore compilation",
+        "significance": "Stories recorded in yokai collections and scrolls",
+        "source": "Yokai scrolls and folklore texts"
+      }
+    ],
+    "modern_era": "Abumi-guchi appears in modern yokai encyclopedias and collections, representing the unique category of objects transformed by trauma rather than time."
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Samurai and war horse loyalty",
+        "Objects absorbing trauma",
+        "Battlefield spirits"
+      ],
+      "stories": [
+        "Stirrup from loyal horse that died in battle",
+        "Blood-soaked equipment becoming sentient",
+        "Voices calling from old battlefields"
+      ],
+      "beliefs": "Objects that witness or experience extreme trauma can become possessed or sentient. The bond between samurai and horse was sacred, their equipment could retain that connection."
+    },
+    "indigenous": {
+      "cultures": [
+        "Japanese"
+      ],
+      "significance": "Reflects samurai era values of loyalty, sacrifice, and the spiritual connection between warrior and mount. Demonstrates belief in object spirituality.",
+      "sensitivity_note": "Abumi-guchi folklore is part of Japanese cultural tradition reflecting samurai era beliefs and should be approached respectfully.",
+      "respect_guidelines": "Recognize the cultural context of samurai warfare and the spiritual significance of the warrior-horse bond in Japanese history."
+    },
+    "popular_culture": {
+      "literature": [
+        "Yokai encyclopedias",
+        "Toriyama Sekien's yokai illustrations",
+        "Modern yokai reference books"
+      ],
+      "film_tv": [
+        "Appearances in yokai-themed anime",
+        "Educational programs on Japanese folklore"
+      ],
+      "games": [
+        "Various yokai-themed video games",
+        "Japanese folklore games"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Toriyama Sekien",
+        "affiliation": "Edo period artist and yokai illustrator",
+        "contribution": "Documented and illustrated various yokai including object spirits",
+        "period": "18th century"
+      },
+      {
+        "name": "Shigeru Mizuki",
+        "affiliation": "Manga artist and yokai researcher",
+        "contribution": "Modern documentation of yokai folklore",
+        "period": "20th-21st century"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "International Research Center for Japanese Studies",
+        "focus": "Japanese folklore and cultural studies"
+      }
+    ]
+  },
+
+  "sources": [
+    {
+      "id": "foster-2015",
+      "type": "book",
+      "title": "The Book of Yokai: Mysterious Creatures of Japanese Folklore",
+      "authors": ["Michael Dylan Foster"],
+      "publication": "University of California Press",
+      "date": "2015",
+      "isbn": "978-0520271029"
+    },
+    {
+      "id": "sekien-gazu",
+      "type": "historical",
+      "title": "Gazu Hyakki Yagyō",
+      "authors": ["Toriyama Sekien"],
+      "date": "1776"
+    }
+  ]
+}
