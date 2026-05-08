@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/abumi-guchi",
     "maintainers": [
       {
@@ -16,72 +16,109 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "abumi-guchi",
     "name": "Abumi-guchi",
-    "aliases": [],
+    "aliases": [
+      { "name": "鐙口", "language": "Japanese (kanji)", "meaning": "stirrup mouth" },
+      { "name": "Abumiguchi", "language": "Japanese (romaji variant)" }
+    ],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Object spirit",
+    "subcategory": "Tsukumogami (object spirit)",
     "tags": [
-      "folklore",
-      "mythology"
+      "japan",
+      "yokai",
+      "tsukumogami",
+      "object-spirit",
+      "edo-period",
+      "toriyama-sekien",
+      "battlefield-folklore"
     ],
     "status": "documented",
     "description": {
-      "summary": "Abumi-guchi is a peculiar yokai from Japanese folklore, appearing as a possessed stirrup (abumi) with a distinctive furry or shaggy appearance and a mouth capable of speech.",
-      "full": "Abumi-guchi is a peculiar yokai from Japanese folklore, appearing as a possessed stirrup (abumi) with a distinctive furry or shaggy appearance and a mouth capable of speech. Unlike typical tsukumogami (objects that become spirits after 100 years), Abumi-guchi is born from tragedy rather than age. The legend tells of a stirrup from a horse that died in battle alongside its samurai master. Soaked in the horse's blood and infused with the animal's loyalty, grief, and the trauma of its death, the stirrup became a sentient yokai. Despite its supernatural nature, Abumi-guchi is relatively harmless, primarily calling out to passersby or engaging in minor mischief. The yokai represents the Japanese belief that objects can absorb the emotions and experiences of traumatic events, particularly in the context of samurai warfare where the bond between warrior and mount was deeply significant."
+      "summary": "The abumi-guchi is a furry tsukumogami (object spirit) of Japanese folklore that takes the form of a stirrup left behind on a battlefield, said to wait for its dead owner to return. It appears in Toriyama Sekien's late-18th-century yokai compendium Gazu Hyakki Tsurezure Bukuro.",
+      "full": "The abumi-guchi (鐙口, 'stirrup mouth') is a yokai depicted by the Edo-period artist Toriyama Sekien in his Gazu Hyakki Tsurezure Bukuro ('Illustrated Bag of One Hundred Random Demons', 1784), the third volume of his yokai catalogue. It is a tsukumogami — an object-turned-spirit — formed from a single stirrup (abumi) left behind on a battlefield after its samurai rider has been killed. Sekien depicts it as a small, furry quadruped with the iron stirrup forming its mouth and frayed leather straps trailing from its body. Folklore commentary that has built up around Sekien's image describes the creature as harmless and pitiable: it lingers in the grass of old battlefields, eternally waiting for the dead horseman who will not return. The abumi-guchi is one of many one-off yokai invented or compiled by Sekien from earlier puns and motifs, and like the rest of the Tsurezure Bukuro creatures it relies entirely on his illustration and short caption as its primary source."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Japanese; coined or compiled by Toriyama Sekien from 'abumi' (鐙, stirrup) and 'kuchi/guchi' (口, mouth).",
+      "meaning": "'Stirrup mouth' — the iron stirrup forms the creature's open, gaping mouth.",
+      "first_use": "1784, in Toriyama Sekien's Gazu Hyakki Tsurezure Bukuro"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Object spirit",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Yokai",
+      "subtype": "Tsukumogami",
+      "variant": "Battlefield equipment spirit"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "tsukumogami", "name": "Tsukumogami", "relationship": "superset", "description": "Broad class of Japanese object spirits to which the abumi-guchi belongs" },
+      { "id": "bakezori", "name": "Bake-zōri", "relationship": "similar", "description": "Animated straw sandal yokai, another tsukumogami" },
+      { "id": "karakasa-obake", "name": "Karakasa-obake", "relationship": "similar", "description": "Animated paper umbrella yokai, frequently paired with abumi-guchi in yokai catalogues" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Iron stirrup mouth", "description": "An iron horse-stirrup forms the open, U-shaped mouth of the creature in Sekien's illustration.", "frequency": "always" },
+        { "feature": "Furry body", "description": "A small, shaggy, quadrupedal furry form, roughly the size of a small animal, depicted in Sekien's image.", "frequency": "always" },
+        { "feature": "Trailing leather straps", "description": "Frayed leather stirrup straps hang from the body in Sekien's depiction.", "frequency": "common" }
+      ],
+      "morphology": "Small quadrupedal yokai whose body is built around a single battle-stirrup; pictured rather than described in measurements."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Animation of an object", "description": "As a tsukumogami, the abumi-guchi is an inanimate object that has gained sentience.", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Persistent waiting", "description": "Said to remain on or near old battlefields, waiting for its fallen rider.", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
       "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "disposition": "passive",
+      "social_structure": "solitary",
+      "habitat_preference": ["old battlefields", "abandoned grasslands", "places where samurai cavalry have died"],
+      "diet": "Not applicable",
+      "patterns": [
+        "Lingers on battlefields after a rider's death",
+        "Does not actively harm or pursue humans"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "A figure of Japanese yokai art and folklore; geographically associated with old samurai battlefields throughout Japan.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": ["Historic samurai battlefields of the Japanese archipelago"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1784",
+        "circa": false,
+        "source": "Toriyama Sekien, Gazu Hyakki Tsurezure Bukuro"
+      },
+      "peak_activity_periods": [
+        { "period": "Edo period (late 18th century)", "description": "Original publication and circulation of Sekien's yokai catalogues" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Edo-period Japanese yokai literature; specifically the late-18th-century work of Toriyama Sekien, who systematized and invented many tsukumogami motifs.",
+      "earliest_accounts": "Sekien's Gazu Hyakki Tsurezure Bukuro (1784) is the earliest known appearance of the abumi-guchi.",
+      "folklore_connections": "Belongs to the broader tsukumogami tradition that holds that household and military objects, after long use or strong emotional attachment, can acquire spirits."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1784", "event": "Toriyama Sekien publishes Gazu Hyakki Tsurezure Bukuro, including an illustration and brief caption for the abumi-guchi", "significance": "Original and definitive primary source for the yokai", "source": "Toriyama Sekien (1784)" }
+    ],
+    "modern_era": "The abumi-guchi survives almost entirely through Sekien's image and modern English-language yokai compendia (notably the work of Matthew Meyer at yokai.com). It is rarely depicted in popular media but is regularly included in lists of tsukumogami."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +129,105 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "abumi-guchi-evidence-sekien-1784",
+        "type": "woodblock-print catalogue",
+        "name": "Gazu Hyakki Tsurezure Bukuro entry",
+        "date": "1784",
+        "description": "Toriyama Sekien's illustrated entry depicting the abumi-guchi as a furry quadruped with a stirrup-shaped mouth.",
+        "status": "verified",
+        "analysis": "An original Edo-period printed source; the foundation of all later descriptions of the yokai.",
+        "source": "Toriyama Sekien, Gazu Hyakki Tsurezure Bukuro (1784)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Tsukumogami doctrine",
+        "description": "Within Japanese folk belief, objects that have served their owner for many years (especially items associated with strong emotion or violent death) can acquire a spirit and become tsukumogami; the abumi-guchi is a specific battlefield-equipment example.",
+        "proponents": ["Toriyama Sekien (as compiler)"],
+        "evidence_cited": ["Long-standing tsukumogami tradition documented in medieval and Edo-period Japanese sources"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Authorial invention",
+        "description": "Many of the yokai in Sekien's Tsurezure Bukuro are widely believed to be Sekien's own visual puns rather than pre-existing folk creatures; the abumi-guchi may be primarily a literary/artistic creation.",
+        "proponents": ["Modern yokai scholars including Matthew Meyer"],
+        "evidence_cited": ["No clear pre-Sekien references", "Stylistic consistency with other invented Tsurezure Bukuro yokai"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Tsukumogami tradition of object spirits",
+        "Edo-period yokai cataloguing"
+      ],
+      "stories": [
+        "Sekien's caption of the abumi-guchi as a stirrup yokai waiting for its dead rider"
+      ],
+      "beliefs": "The abumi-guchi is treated as a melancholy, harmless yokai illustrating the loyalty and grief of objects left behind by fallen warriors."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "Toriyama Sekien — Gazu Hyakki Tsurezure Bukuro (1784)",
+        "Matthew Meyer — The Hour of Meeting Evil Spirits and other yokai compendia"
+      ],
       "film_tv": [],
       "games": [],
-      "other": []
+      "other": [
+        "Featured at yokai.com and other modern yokai databases"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Toriyama Sekien", "affiliation": "Edo-period ukiyo-e artist", "contribution": "Original illustrator and compiler of the abumi-guchi entry", "period": "18th century" },
+      { "name": "Matthew Meyer", "affiliation": "Independent yokai researcher / yokai.com", "contribution": "Modern English-language documentation and translation of the abumi-guchi entry", "period": "2010s–present" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Ongoing scholarly translation and analysis of Sekien's yokai catalogues continues in academic and popular Japanese-folklore studies."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-abumi-guchi",
+      "type": "website",
+      "title": "Abumi-guchi",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Abumi-guchi",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "yokai-com-abumiguchi",
+      "type": "website",
+      "title": "Abumiguchi",
+      "authors": ["Matthew Meyer"],
+      "publication": "yokai.com",
+      "url": "https://yokai.com/abumiguchi/",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "sekien-1784",
+      "type": "book",
+      "title": "Gazu Hyakki Tsurezure Bukuro (画図百器徒然袋)",
+      "authors": ["Toriyama Sekien"],
+      "date": "1784",
+      "notes": "Third volume of Sekien's yokai picture-book series; original primary source for the abumi-guchi."
+    }
+  ]
 }

@@ -1,290 +1,146 @@
 # Abumi-guchi
 
-> *"The stirrup remembers the loyalty that died in blood."*
+> The abumi-guchi is a furry tsukumogami (object spirit) of Japanese folklore that takes the form of a stirrup left behind on a battlefield, said to wait for its dead owner to return. It appears in Toriyama Sekien's late-18th-century yokai compendium Gazu Hyakki Tsurezure Bukuro.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Status](https://img.shields.io/badge/status-traditional-brightgreen)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-documented-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `abumi-guchi` |
 | **Category** | ENTITY_SPIRIT |
-| **Classification** | Yokai / Object spirit |
-| **First Recorded** | Samurai era |
-| **Primary Region** | Japan |
-| **Status** | Traditional folklore |
+| **Subcategory** | Tsukumogami (object spirit) |
+| **First recorded** | 1784 |
+| **Primary range** | A figure of Japanese yokai art and folklore |
+| **Status** | documented |
 
 ---
-
 ## Overview
 
-Abumi-guchi is a peculiar yokai from Japanese folklore, appearing as a possessed stirrup (abumi) with a distinctive furry or shaggy appearance and a mouth capable of speech. Unlike typical tsukumogami (objects that become spirits after 100 years), Abumi-guchi is born from tragedy rather than age.
-
-The legend tells of a stirrup from a horse that died in battle alongside its samurai master. Soaked in the horse's blood and infused with the animal's loyalty, grief, and the trauma of its death, the stirrup became a sentient yokai.
-
-Despite its supernatural nature, Abumi-guchi is relatively harmless, primarily calling out to passersby or engaging in minor mischief. The yokai represents the Japanese belief that objects can absorb the emotions and experiences of traumatic events, particularly in the context of samurai warfare where the bond between warrior and mount was deeply significant.
+The abumi-guchi (鐙口, 'stirrup mouth') is a yokai depicted by the Edo-period artist Toriyama Sekien in his Gazu Hyakki Tsurezure Bukuro ('Illustrated Bag of One Hundred Random Demons', 1784), the third volume of his yokai catalogue. It is a tsukumogami — an object-turned-spirit — formed from a single stirrup (abumi) left behind on a battlefield after its samurai rider has been killed. Sekien depicts it as a small, furry quadruped with the iron stirrup forming its mouth and frayed leather straps trailing from its body. Folklore commentary that has built up around Sekien's image describes the creature as harmless and pitiable: it lingers in the grass of old battlefields, eternally waiting for the dead horseman who will not return. The abumi-guchi is one of many one-off yokai invented or compiled by Sekien from earlier puns and motifs, and like the rest of the Tsurezure Bukuro creatures it relies entirely on his illustration and short caption as its primary source.
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| 鐙口 | Japanese (kanji) | stirrup mouth |
+| Abumiguchi | Japanese (romaji variant) |  |
 
-### Primary Name
-- **Abumi-guchi** (あぶみ口) — From "abumi" (stirrup) and "guchi/kuchi" (mouth). Literally "stirrup mouth."
+## Etymology
 
-### Alternative Names
-
-| Name | Language/Region | Meaning |
-|------|-----------------|---------|
-| Stirrup Yokai | English | Descriptive name for possessed stirrup |
-
----
-
-## Classification
-
-### Taxonomy
-```
-Category: ENTITY_SPIRIT
-├── Type: Yokai
-├── Subtype: Object spirit
-└── Variant: Japanese (Tsukumogami-related)
-```
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Description |
-|------------|--------------|-------------|
-| [Tsukumogami](/tsukumogami) | Related | Objects that become spirits (after 100 years) |
-| [Kasa-obake](/kasa-obake) | Similar | Umbrella yokai, another possessed object |
+- **Origin**: Japanese; coined or compiled by Toriyama Sekien from 'abumi' (鐙, stirrup) and 'kuchi/guchi' (口, mouth).
+- **Meaning**: 'Stirrup mouth' — the iron stirrup forms the creature's open, gaping mouth.
+- **First use**: 1784, in Toriyama Sekien's Gazu Hyakki Tsurezure Bukuro
 
 ---
+## Related Phenomena
 
-## Characteristics
+- [Tsukumogami](../tsukumogami/) — _superset_: Broad class of Japanese object spirits to which the abumi-guchi belongs
+- [Bake-zōri](../bakezori/) — _similar_: Animated straw sandal yokai, another tsukumogami
+- [Karakasa-obake](../karakasa-obake/) — _similar_: Animated paper umbrella yokai, frequently paired with abumi-guchi in yokai catalogues
 
-### Physical Description
+---
+## Physical Description
 
-| Attribute | Description | Confidence |
-|-----------|-------------|------------|
-| **Size** | 0.2 - 0.4 meters (stirrup-sized) | High |
-| **Appearance** | Old stirrup with shaggy fur | High |
-| **Coloration** | Brown, gray, dark fur/hair | Medium |
-| **Form** | Retains basic stirrup shape | High |
+- **Morphology**: Small quadrupedal yokai whose body is built around a single battle-stirrup; pictured rather than described in measurements.
 
-### Distinguishing Features
+### Features
 
 | Feature | Description | Frequency |
-|---------|-------------|-----------|
-| Furry appearance | Covered in shaggy fur or hair | Always |
-| Mouth | Visible mouth capable of speech | Always |
-| Small size | Object-sized, relatively tiny | Always |
-| Shaggy texture | Unkempt, furry surface | Common |
+|---|---|---|
+| Iron stirrup mouth | An iron horse-stirrup forms the open, U-shaped mouth of the creature in Sekien's illustration. | always |
+| Furry body | A small, shaggy, quadrupedal furry form, roughly the size of a small animal, depicted in Sekien's image. | always |
+| Trailing leather straps | Frayed leather stirrup straps hang from the body in Sekien's depiction. | common |
 
-### Reported Abilities
+## Reported Abilities
 
-| Ability | Description | Evidence Level |
-|---------|-------------|----------------|
-| Speech | Can speak and call out to people | Folklore |
-| Vocalization | Moans expressing lingering grief | Folklore |
-| Minor mischief | Small pranks, minor disturbances | Folklore |
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Animation of an object | As a tsukumogami, the abumi-guchi is an inanimate object that has gained sentience. | always | folklore |
+| Persistent waiting | Said to remain on or near old battlefields, waiting for its fallen rider. | common | folklore |
 
-### Behavioral Patterns
+## Behavior
 
-- **Activity Period**: Any time
-- **Disposition**: Harmless (not dangerous)
-- **Social Structure**: Solitary
-- **Habitat Preference**: Roadsides, old battlefields, abandoned samurai estates
-- **Threat Level**: Minimal (more sad than scary)
-
-#### Typical Behavior:
-- Calls out to passersby
-- Makes moaning or speaking sounds
-- Does not attack or cause harm
-- Engages in minor mischief
-- May express sadness, grief, or loss
-- Voice can speak coherently
+- **Activity**: unknown
+- **Disposition**: passive
+- **Social structure**: solitary
+- **Habitat**: old battlefields, abandoned grasslands, places where samurai cavalry have died
+- **Diet**: Not applicable
 
 ---
+## Distribution
 
-## Origin Story
+A figure of Japanese yokai art and folklore; geographically associated with old samurai battlefields throughout Japan.
 
-### The Tragic Birth
-
-**Unlike most yokai, Abumi-guchi is born from tragedy, not time.**
-
-The traditional story tells of a samurai's loyal war horse that died in battle. The bond between samurai and horse in feudal Japan was sacred—these animals carried warriors through life and death, sharing the dangers of the battlefield.
-
-When the horse fell in combat, its stirrup became soaked in blood. The equipment absorbed not just the physical blood, but the emotional weight of the moment: the horse's loyalty, its grief at failing its master, the trauma of violent death, and the sacred bond between mount and rider.
-
-This combination of blood, emotion, and tragedy transformed the ordinary stirrup into something supernatural—a yokai with a mouth that could speak, expressing the lingering sorrow of that faithful horse's death.
-
-### Not a Tsukumogami
-
-While Abumi-guchi resembles tsukumogami (objects that become spirits after 100 years of service), it represents a different phenomenon:
-
-- **Tsukumogami**: Born from age and neglect
-- **Abumi-guchi**: Born from trauma and emotion
-
-This distinction reflects the Japanese belief that objects can absorb and retain the spiritual essence of significant events, particularly violent or emotionally charged ones.
 
 ---
+## Historical Timeline
 
-## Behavioral Characteristics
+| Date | Event | Significance |
+|---|---|---|
+| 1784 | Toriyama Sekien publishes Gazu Hyakki Tsurezure Bukuro, including an illustration and brief caption for the abumi-guchi | Original and definitive primary source for the yokai |
 
-### What Abumi-guchi Does
+## Evidence
 
-**Primary Activities**:
-- Calls out to people walking by
-- Speaks in a human-like voice
-- Moans or makes sorrowful sounds
-- Engages in minor harmless pranks
-- Remains near battlefields or roads
+### Documentary
 
-**What It Doesn't Do**:
-- Attack people
-- Cause serious harm
-- Chase or pursue
-- Possess humans
-- Gather in groups
-
-### Emotional Expression
-
-The yokai seems to retain the emotional trauma of its origin:
-- Expresses sadness or loss
-- Calls out as if seeking attention
-- Voice may sound mournful
-- Behavior suggests lingering grief
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Gazu Hyakki Tsurezure Bukuro entry | 1784 | Toriyama Sekien's illustrated entry depicting the abumi-guchi as a furry quadruped with a stirrup-shaped mouth. | verified |
 
 ---
+## Theories & Explanations
 
-## Cultural Significance
+### Paranormal / Cryptozoological
 
-### Samurai Era Context
+**Tsukumogami doctrine** _(Toriyama Sekien (as compiler))_
 
-> ⚠️ **Cultural Sensitivity Note**: Abumi-guchi folklore reflects samurai era beliefs about loyalty, sacrifice, and the spiritual nature of objects. It should be understood within its cultural and historical context.
+Within Japanese folk belief, objects that have served their owner for many years (especially items associated with strong emotion or violent death) can acquire a spirit and become tsukumogami; the abumi-guchi is a specific battlefield-equipment example.
 
-**The Warrior-Horse Bond**:
-In samurai culture, the relationship between warrior and war horse was deeply significant:
-- Horses were valued companions, not just transportation
-- The bond was considered almost sacred
-- A samurai's mount shared the dangers of battle
-- Loss of a loyal horse was genuinely mourned
+### Skeptical
 
-**Object Spirituality**:
-Japanese tradition holds that objects can:
-- Absorb emotions and experiences
-- Retain spiritual essence of events
-- Become sentient under extreme circumstances
-- Serve as reminders of past tragedies
+**Authorial invention** _(Modern yokai scholars including Matthew Meyer)_
 
-### Symbolism
+Many of the yokai in Sekien's Tsurezure Bukuro are widely believed to be Sekien's own visual puns rather than pre-existing folk creatures; the abumi-guchi may be primarily a literary/artistic creation.
 
-**Loyalty Beyond Death**: The stirrup retains the horse's loyalty even after death
 
-**Trauma Absorption**: Physical objects can hold emotional and spiritual weight
+## Popular Culture
 
-**Minor Ghosts**: Not all supernatural beings are dangerous or vengeful
+**Literature**: Toriyama Sekien — Gazu Hyakki Tsurezure Bukuro (1784); Matthew Meyer — The Hour of Meeting Evil Spirits and other yokai compendia
 
-**Forgotten Sacrifice**: Represents the overlooked casualties of war (animals, equipment)
+**Other**: Featured at yokai.com and other modern yokai databases
 
 ---
+## Research
 
-## In Popular Culture
+### Researchers
 
-### Traditional References
-- Edo period yokai scrolls and illustrations
-- Toriyama Sekien's yokai catalogs
-- Traditional folklore compilations
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Toriyama Sekien | Edo-period ukiyo-e artist | Original illustrator and compiler of the abumi-guchi entry | 18th century |
+| Matthew Meyer | Independent yokai researcher / yokai.com | Modern English-language documentation and translation of the abumi-guchi entry | 2010s–present |
 
-### Modern Appearances
-- Yokai encyclopedias and reference books
-- Educational programs on Japanese folklore
-- Yokai-themed video games and anime
-- Cultural exhibitions
+Ongoing scholarly translation and analysis of Sekien's yokai catalogues continues in academic and popular Japanese-folklore studies.
 
 ---
+## Sources
 
-## Comparison with Similar Yokai
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
 
-| Yokai | Origin | Danger Level | Activity |
-|-------|--------|--------------|----------|
-| Abumi-guchi | Trauma | Harmless | Calls out |
-| Tsukumogami | Age (100 years) | Varies | Varies |
-| Kasa-obake | Age | Harmless | Hopping |
-| Chochinobake | Age | Harmless | Surprising |
 
----
+## How to Report a Sighting
 
-## How to Report an Encounter
-
-If you've encountered Abumi-guchi or similar phenomena:
-
-1. **GitHub Issue**: [Submit Report](../../issues/new?template=encounter_report.yml)
-2. **Required Information**:
-   - Date and time
-   - Location (especially if near historical battlefield)
-   - Description of appearance
-   - What it said (if it spoke)
-   - Any emotional impressions
-
-See [Contributing Guidelines](https://github.com/wyrdness/.github/blob/main/CONTRIBUTING.md) for submission requirements.
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
 
 ---
-
-## API Reference
-
-Machine-readable data is available in [`api.json`](api.json).
-
-### Data Access
-
-```javascript
-// Using WyrdnessAPI
-const wyrd = new WyrdnessAPI();
-const abumiGuchi = await wyrd.getPhenomenon('abumi-guchi');
-```
-
-### Direct Access
-
-```
-Raw JSON: https://raw.githubusercontent.com/wyrdness/abumi-guchi/main/api.json
-```
-
----
-
-## Sources & References
-
-See [SOURCES.md](SOURCES.md) for complete bibliography.
-
-### Key Sources
-
-- Foster, M.D. (2015). *The Book of Yokai: Mysterious Creatures of Japanese Folklore*. University of California Press.
-- Toriyama Sekien. *Gazu Hyakki Yagyō* (1776)
-- Mizuki, S. *Yokai Encyclopedia* (various editions)
-
----
-
-## Changelog
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-01-14 | Initial release |
-
----
-
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-[Report Encounter](../../issues/new?template=encounter_report.yml) • [Suggest Correction](../../issues/new?template=correction.yml) • [Full API](api.json)
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._
